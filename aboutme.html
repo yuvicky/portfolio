@@ -35,11 +35,11 @@ body {
   <a href="#" class="w3-bar-item w3-button w3-teal">Home</a>
   <a href="#" class="w3-bar-item w3-button">Extracurriculars I am Involved in</a>
   <a href="#" class="w3-bar-item w3-button">Projects</a>
-    <button onclick="myFunction()">Projects</button>
-    <p id="demo"></p>
+    <p id="demo">Projects</p>
     <script>
-    function myFunction() {
-      <a href="projects.html">My Projects</a>
+    document.getElementById("demo").onclick = function() {myFunction()};
+        function myFunction() {  
+        <a href="projects.html">My Projects</a>
     </script>
   <a href="#" class="w3-bar-item w3-button">Contact Me!</a>
 </div>
